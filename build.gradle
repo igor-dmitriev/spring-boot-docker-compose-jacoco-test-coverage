@@ -29,5 +29,7 @@ dependencies {
     compileOnly('org.projectlombok:lombok')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
     testCompile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
+    compile group: 'org.jacoco', name: 'org.jacoco.core', version: '0.8.2'
+    compile group: 'org.jacoco', name: 'org.jacoco.report', version: '0.8.2'
     testCompile 'org.testcontainers:testcontainers:1.9.1'
 }

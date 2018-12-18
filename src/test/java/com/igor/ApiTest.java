@@ -55,6 +55,7 @@ public class ApiTest {
         .body(is("Hello World"));
 
     dumpJacocoCoverage();
+    new ReportGenerator().create();
   }
 
   private void dumpJacocoCoverage() throws Exception {
